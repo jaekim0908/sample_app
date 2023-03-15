@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.2.4.3'
+gem 'rails', '6.1.7.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -11,7 +11,7 @@ gem 'sqlite3'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '~> 5.0.5'
+  gem 'sass-rails', '~> 5.0.8'
   gem 'coffee-rails', '~> 4.2.2'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
