@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.2.4.3'
+gem 'rails', '5.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -12,7 +12,7 @@ gem 'sqlite3'
 # in production environments by default.
 group :assets do
   gem 'sass-rails', '~> 5.0.5'
-  gem 'coffee-rails', '~> 4.2.2'
+  gem 'coffee-rails', '~> 4.1.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -43,5 +43,5 @@ end
 
 group :test do
   gem 'rspec', '2.0.1'
-  gem 'webrat', '0.7.1'
+  gem 'webrat', '0.7.2'
 end
